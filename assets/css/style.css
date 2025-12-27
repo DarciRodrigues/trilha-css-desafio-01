@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --cor-1: #33a8db;
+  --cor-2: #1472b7;
+  --cor-3: #ffffff;
+  --fonte-1: "Raleway", sans-serif;
+}
+body {
+  background-color: black;
+  color: var(--cor-3);
+  font-family: var(--fonte-1);
+}
+header {
+  width: 100vw;
+  height: 63,5vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(49, 168, 221, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../images/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+}
+.banner-content {
+  text-align: center;
+  margin: auto;
+
+  width: 600px;
+}
+.logo {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 260px;
+  width: 260px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+p {
+  font-size: 1.25rem;
+  margin-left: 16px;
+  margin-right: 24px;
+}
+h1 {
+  font-size: 2.5rem;
+  -webkit-background-clip: text;
+  background: linear-gradient(#33a8db 0%, #1472b7 100%);
+  color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+button {
+  width: 326px;
+  height: 57px;
+  background-color: transparent;
+  color: #33a8db;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h2 {
+  text-transform: uppercase;
+}
+.course-content {
+  height: 84vh;
+}
+h2,
+.module span,
+footer a {
+  color: var(--cor-1);
+}
+#course-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+#course-content h2 {
+  word-spacing: 0.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+#course-content p {
+  margin-left: 392px;
+  text-align: center;
+  margin-right: 123px;
+}
+.module {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin: 2rem;
+  width: 35vw;
+  height: 7vh;
+  border: 2px solid #33a8db;
+}
+#transform-world {
+  width: 100vw;
+  background-image: url(../images/woman-code.png);
+  height: 50vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+#professional-challenges{
+  text-align: center;
+  width: 100%;
+}
+#professional-challenges h2{
+word-spacing: .5rem;
+font-size: 2rem;
+margin-top: 40px;
+margin-left: 300px;
+margin-right: 377px;
+}
+#professional-challenges img{
+  width:659px ;
+  height: 429px;
+}
+#professional-challenges p{
+  margin-left: 219px;
+  margin-right: 278px;
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+}
